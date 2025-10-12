@@ -1,0 +1,17 @@
+/* let's add some simple css */
+header{
+    color: #424A52;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+}
+body {
+    background-color: #F5F5F5FF;
+    color: #424A52;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+}
+
+/* all h1 to be bold */
+h1{
+    font-weight: bold;
+}
