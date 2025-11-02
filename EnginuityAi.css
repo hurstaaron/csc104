@@ -1,0 +1,114 @@
+html{
+    background-color: whitesmoke;
+    font-size: 30px; /* set root font size to use 'rem' w/ divs to make font an 'x' size of the root */
+}
+
+/* style the navbar */
+.navbar{
+    background-image: url("img/techUni.jpg"); /* import my background img */
+    background-size: cover; /* fill up the navbar */
+    background-position: center; /* centers the image in the navbar */
+}
+
+/* style the list*/
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    text-align: right;
+}
+
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: .75rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin: .5rem;
+}
+
+#logo{
+    color: whitesmoke;
+    text-align: left;
+}
+
+body{
+    margin: 100px;
+    padding: 10px;
+    color: black;
+}
+
+.imgsec img{
+    width:600px;
+    border-radius: 15px;
+    border: 1.8px solid navajowhite;
+}
+
+h1{
+    text-align: center;
+    padding: 1rem;
+    margin: 0rem;
+}
+
+h2{
+    text-align: center;
+    color: midnightblue;
+}
+
+h4{
+    border: .3rem solid orangered;
+    text-align: center;
+    padding: 1rem;
+    margin: 0rem;
+}
+
+#ai{
+    color: green;
+}
+
+#communications{
+    color: blueviolet;
+    text-align: right;
+
+}
+
+#cybersecurity{
+    color: darkred;
+    border: .25rem solid black;
+    padding: 10px;
+    margin: 20px;
+    text-wrap: wrap;
+    text-align: center;
+    background-image: url("img/Cybersec.jpg");
+    background-size: cover; /* fill up the navbar */
+    background-position: center; /* centers the image in the navbar */
+
+}
+
+#collaberation{
+    text-align: center;
+}
+
+#colocation{
+    color: cornflowerblue;
+
+}
+
+#networking{
+    color: slategrey;
+
+}
+
+#daas{
+    color: blue;
+}
+
+#disaster{
+    color: rosybrown;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+
+}
+
